@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        form {
+            max-width: 450px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid whitesmoke;
+            background-color: whitesmoke;
+        }
+
+        div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid whitesmoke;
+            box-sizing: border-box;
+        }
+
+        fieldset {
+            border: 1px solid whitesmoke;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: black;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="#" method="post">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="username" placeholder="username" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="user@example.com" required>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+        </div>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male" style="display: inline; font-weight: normal;">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" style="display: inline; font-weight: normal;">Female</label>
+
+            <input type="radio" id="other_gender" name="gender" value="other">
+            <label for="other_gender" style="display: inline; font-weight: normal;">Other</label>
+        </fieldset>
+
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select a Country</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="india">India</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="other_country">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="profile_picture">Profile Picture:</label>
+            <input type="file" id="profile_picture" name="profile_picture" accept="image/*">
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms" style="display: inline; font-weight: normal;">I agree to Terms &amp; Conditions</label>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
