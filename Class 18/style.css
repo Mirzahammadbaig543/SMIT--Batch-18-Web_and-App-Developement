@@ -1,0 +1,48 @@
+/* .abc:hover{
+    background-color: aquamarine;
+} */
+
+.abc:focus {
+    background-color: blue;
+    color: white;
+
+}
+
+
+.xyz:active {
+    background-color: black;
+    color: white;
+
+}
+
+div.box {
+    height: 300px;
+    width: 300px;
+    background-color: #bbbbaa;
+}
+
+p.bc {
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+}
+
+.ab {
+    min-width: 50px;
+    max-width: 70px;
+    background-color: yellow;
+}
+
+p.az{
+  width: 100px;
+  background-color: aquamarine;
+}
+
+p.xy{
+    width: 100px;
+    height: 1350px;
+    background-color: #0088dd;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
