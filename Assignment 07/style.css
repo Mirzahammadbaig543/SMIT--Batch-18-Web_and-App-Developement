@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: #1e90ff;
+}
+
+p::first-letter {
+    font-size: xx-large;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p::first-line {
+    color: blue;
+    font-style: italic;
+}
+
+.bonus-task::first-letter {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+}
+
+.bonus-task::first-line {
+    color: purple;
+    font-style: oblique;
+}
