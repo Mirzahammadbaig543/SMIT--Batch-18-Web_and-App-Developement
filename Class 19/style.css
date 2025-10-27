@@ -1,0 +1,36 @@
+p {
+    /* border-width: 5px; */
+    /* border-style: dashed ; */
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: red;
+    border-top-color: yellow;
+    border-left-color: green;
+    border-right-color: blue;
+}
+
+.first {
+    width: 400px;
+    background-color: aquamarine;
+    height: 50px;
+
+}
+
+/* 
+.abc{
+        margin-right: 10px;
+
+} */
+
+.abc{
+    width: 20%;
+    background-color: rgb(252, 244, 244);
+    padding: 2%;
+    /* margin-left: 20px; */
+    margin: 50px 100px 20px 150px;
+}
+
+
+.second {
+    width: 150px;
+}
