@@ -1,0 +1,51 @@
+/* ul.one{
+    background-color: aqua;
+    list-style-position: inside;
+}
+
+ul.two{
+    background-color: brown;
+    list-style-position: outside;
+} */
+/* table{
+    border: 1px solid yellow;
+    /* border-collapse: collapse; */
+/* padding: 5px;
+}
+td{
+    border: 1px solid rgb(245, 239, 239); */
+/* padding: 10px;
+    text-align: left; */
+/* empty-cells: hide;
+
+}
+
+td:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(0.4);
+    transition: 3s;
+
+}  */
+
+label {
+    display: inline-block;
+    width: 68px;
+    text-align: left;
+}
+
+input {
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.Email {
+    background-image: url('https://i.pinimg.com/736x/a6/b7/42/a6b7422efdc9e509a6292e0ac1cc6fa6.jpg');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+
+    
+}
