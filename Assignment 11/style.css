@@ -1,0 +1,579 @@
+.one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.aaaaa {}
+
+.aaaaa:hover {
+    transform: scale(-1);
+}
+
+.aaaa:hover {
+    transform: scale(-1);
+}
+
+.aa:hover {
+    transform: scale(-1);
+}
+
+.aaa:hover {
+    transform: scale(-1);
+}
+
+.aaaaaaa:hover {
+    transform: scale(-1);
+
+}
+
+.two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: static;
+    top: 0px;
+    left: 0px;
+    gap: 20px;
+    z-index: 1;
+}
+
+.sss {
+    background-image: url(https://www.clipartmax.com/png/middle/260-2609039_pikachu-clipart-black-and-white-pikachu-face-line-art.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 20px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+    border-bottom: 5px solid red;
+    background-color: bisque;
+}
+
+.ssss {
+    background-image: url(https://png.pngtree.com/png-vector/20220627/ourlarge/pngtree-pokemon-game-symbol-pikachu-play-png-image_5192675.png);
+    background-size: 20px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding-top: 20px;
+    height: 70px;
+    border-bottom: 5px solid rgb(136, 255, 0);
+
+}
+
+.sssss {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAZlBMVEX////29vYAAADt7e3s7Ozv7+/r6+v19fXq6uru7u739/e8vLzy8vKbm5vd3d2VlZXU1NSxsbGMjIzDw8PY2Ni3t7fHx8d7e3vk5OR2dnYfHx+Dg4MzMzMQEBAREREqKioZGRmpqalyKo3xAAAOQUlEQVR4nO2diWLcJhBAVwaEkInT1K7jOPHR///JIgnQwTXAIDvbqGk7kVihsdY85mC4MMZod1EHFdcpXP5o+NsLF0LIIvVXKlw4513Xzf/l8/+vTZi17CaFJ2EkVyeQ5T0SJvpZVXptAmPLO9xqSK9KMBr2Qz9cpzAMF/XvMI85q9CfIfRn9TXxkIyTQI1AThGWofyEvlbiD0boxVUJO+ITroXPQGpc4mtEjvjoP3ku0QWIbxGJj35xKt+FcC4txLeInNBPd2dqBXkq3yU5njE8tIhUIxAq+kd5Jt8lgxCfIjOXkfP4LpfvZJD46MwVrJ+JJNVxCQicU5S+BjOFYCJIfHTUCsb47c/U8eMOqVM5C0yGiY+OWsYE/3qTPP4aEfpSFr3gWogRH1cQkkm4hnV9qS+nCNxnR3w8UnfjqCYQ4+VLWsOHEYP44zRdGYM2vkvPSvSrYW0ZuAEa3iGAfkZCp37fQjZ+O+MapGFdX2qWsvQ1soiNjw5f4zSAaljRF2dajVNt/JFoAaRhZafqm9gH27Qgfk+otd/tWHpxj0d9aRlLi0GvR05G0za+i1HFlgL4UilFp8+sGhpYEYMvebvTsAz007ew00LaxvditAC+g+lVnVk1dBofNCwD/dRXAPRQ4pMiHDMjHN7hrs1BwyLQqxcVAn2S+Nyez4HvOMFeCeZTdqS5OPe5GA3Lid/Nh0J92quPaW73uzNWQ7ex0bCC+AsPmbFFI159LNDv7N0dDz2NVw0rOzVTmahXP+4Yh1NYjZ57+O403DfeaVgAeqEfTGlIKr36cKt/pORg0a8aOo1XDcsmFYIsr46TWGMo8Wm6DaEeR/1hLN1eOoyl2cRfBucw6PNs/B7Qhvkc9Qce7i7VEV+AHwxk40PQ771PO+IvGkIiEVAbXyThKz2XGhFfDSDJ54ESfxV4xOrvtI3tXGpC/GVSMarD48OvIH4X9s93PRHEf6kF8U1fgg2AT+URPwDWUaFJ+C+1IL626AUoAJFn44cc/iMTq4b7Sy2Iv/S107CS+En0cyJE4FIL4g+LMEAbNw3ftyI+Yb1zwyriF1v9DYnPoY3zvPq5Vn874uuAfG4cH11oZ+P3+MT3hMvTnn804useSxz+s5aF4XKWboxF/I5JGZhUoBJfC0IaL/oyq4g0xiL+NKlg8Ces9OoTKbX7QAuRxljEV3M0UpRgUOTVF5rvCvQs7E7HJj4tSzAoJ74g5xHfhOZ7pj2xWY9aGMcX6hf/LOIzqa1BKiWrydzLi9HL84g/JR/wnYblmXsZ7nQZjJujE58yHeoRJuGiPHMP6LpX9jVX/ygbO2VloxB/7mdcjPrRuU8D4ncKh5r4BhvtiT8y0+kJxI/HzVsRn51IfE4kX1K2uDSTm6AAIf4l/HErTN9ymf2ohcTn4vH29vHx8f7+Vh330xEUHr+nif8v4D5a7s8i/o+b7CNC/IzjllXl6sMx+j39LI6GYeLnaAiaZiAQv1hDL/GzNCyYnJQQ/6DhC0TDMPGDx6tz41uW+6jzwAEkvvWic+cdAlSMED+k39vb2/vh3P3Y1MYX2iPMuTPSpFWMED9wvL3cvD0fbvzYlviWuV3JWOre8J/8uzy2Jb7R0L7DX8Pd3R2hlDzdpYTBc0MZ/dTTk6DK6J3PiMe9ho2IP1KiTXtpNLwIukypqHYxKIEGBM/MIdx4tAkky5mHjYZtiE/UyLtB9nejYfxTxYIeDJWWS6fMvMN2xLcx1x3xf+3bFKX5eYU1GU/bon8ZDZsRn0gqXeL/2rUpS/PzCsdkvI2GrYivvqVsc2an4aZxWZqfY9EzdrjP5lvagvhTMt4Ee4tsvmp4aMxjsX6YoP+6j9GP5h02IT5nx2S8lRYXx/ynmTh24wWavdolqy9txtIGxN9mjS1nOqshcoY/J0y6ZDvQAp/4RB7C95t36PtUke/dJON5ltcJ6miITfz+4LrfED8cZC/LumdUeKcHzYjf0574XO5NiD8MdBlCPV79ZsRXnCeObR4i/hb9wveppMDGwPO0I37okpf4W/TDg+w70Gv6OZfaEX8QkvpW6IeIbwV4kH2DdRb8VCPijzPuPV70MPF384Rc4o9Lh74wQRviUxby2EeIv7YpIn4XChO0IP4ow150GPGTIf6toLMQ2CZrftumCfG3WQgHLq/v0ORHsLTgnUvoNmIjCN/HWxCfD4SFvPpy48V4eFLH5GpwhbvtGc992MP+U8Pw5L3Pw9Nwj018wuLlcUo8wq5Xv8AThUV8oX4tosiGarjxBYa9+q/Pz+/vbxCvMh7x1fyXRZENfofrcwe9+q9v7+oPUEU04jMat9bh39JXq2HAq7+o9nbzDtMQgfizLa8N+gBGXa9+5DAPHvLqP8+O+zfg3RCI35nk6ZjV73r10yqGvPovU2zi+Rl4MwTiTzH6JEbzvPrLFzUYx395gwWv5uMegfiERda2a0E+fvv2z3R8+5YSbn/o54/E8f8F3EcLAw7xU8l43bDmYiSFL/otRuL4TxfAfdZcjNMy93Jy9V9arM6rIT6if15nfb3g5+pXER/RP996Pf5nytV3LqGsx2+Xqw8VNpl7R4c/wnr8hrn6cGGT9eUl/g1KBR70XP0M4YT1+NVe/TphqyHbG/uV6/ERvfpVQrv1+J+K+DefjfiIQrvVec1z9f8QXwutK/B8KuL7bfwrIn5trv5vRnyXh9dB/JXC7pzmyohPTyd+uxL3QeLTc4lPHRy3Jj69euIPjoZ/iF8uGOJ3oGo2vzXxA1H7KyK+Jcl5Nv7L1RLfzmlerpX4q43/ehLxLSKR0T+kbfxXdOIrySW+RSQ6+scvr17irzb+CzLxBRPnEZ8Kxr++v/uI387GZ7Yw3gnEHxjlX26WHIQI8R9QiS+cDEDHxkdC//Rn7C6rhmcQfxx1md+4jY+DfmqI/3we8U0x2ZSNj4H+KeueLBpGiG80xOK7L9uwFfE5OeyN4Ce+R8OKTkfJ3Co9rYjP1Zf08A7P8Op7du0JefUr0U/MWHqeV18QEajC5/fqV6JfZ91LAffq93XJA1RIeaaNLw3x4V79+uSBUHEefOJTRuzyutNs/KkUWOBS2KtfiP55Oxs+Ftn4+Rn+87yimzMOC7z6RehfyvHZDMAsG78ww1+Y7Ptsr34++qfEP/2s58Xxd2v6Wtv43Gbmk+M7TBDfArqgd3LMEGhJfEL7/e51ucQvK6wXWvIPieNnoX9ZXidOjOMTwBMm4vhZ6DcF8VYru3UcnwHmCZjEX2rUiY2V3TqOz+wWAid49aeSf/NXUf1YK736ArxpL1GdptoA4vgg9M8L6zZJ/kXENwJoXf9szusTIK9+BKwA9GvQO3V3y7z6kHX9U51/yJwEFMcHoH8p+cfJ8VI74ru79rQkvpnKdOR4qbjKbhr9sH14kYhvi/jjZe6l0U8ZbuZeBKzUDoYO1quIH96+x7trT23mXgT9zKDJXdNXQ/zIdnji5Di+NL16LlUQP2L1CwDoUYm//Mh9lxrZ+Or3/lilp4r4KfQvBXO892kUx+feQgEYmXsBwnIqQ5vafKY4PgS1EcIGLv2/cvWziH8tcfww8T8+V1+xAWCb49r4nuI87XL1mWSQEvdYNr4tzlNQ26eQ+DTsRUfP1acmTDC9jPzaPqXEpxRSZgeF+AOTZu8j7UZonKvPFxf67EofE41xiK+3w+VzlxDzv5z4yxA8JXTMgtCu2BMy92xQueubEt+Ey40gZahKDzrxTaeuGwGf+KOUZptaKVOL99GIr7raxwtaEp/pDXRGIcw3pznx1asjBPyEGMRXY6E4i/g90/uhCHWAt8yrJb5koE1tUIjfm77UbwV8y7xa4jN2HvGHbcHB04gP3NQGy8Zn+ltaUs2vcHXeXAY33RjLxo+4ERoQ/0Ny9Tlwb1wc4ucImDZ+xMOAQ3zY7rQn2PiRqH0V8bn6Pb9qG5+GL0Uc7DXEJ6bSa5bDv5z4oby4uMO/kvihSUWPTnxrZWc7/Gu8+uFJRVaaH4j4g5psF/gB6ohPSGGnBcSfq+120f3oAw7/QuJPu/bwXTF/T6dQY3/WEhaj39e6hzn8C4kvWHJvXGgNfwjxPTXqGnv1eelOeUXEF3mExSE+8/1YG3n1ORv6IuO6ivhUiHAyHirxqbGyPTF6CPoLiN/nxOhria9+krYSfLzu7iWA/gLiT9NfQF/mCSuJb7ftKQ7xFxAftg8vHP0x4k95O/le9FriU4YCegjxZ8c958ktcSPozyP+uCT/5W6Jm0D/rGUE9NM6uyzjeo/+POILSlKgz0Z/hPi21n2ecb1vnEd8WYr1IXwpSHxnA50ziM9kqJh/AuvhRw3X1YflxWETn4lzbHx7RghRhFqL7AziC9bne+whVr+f+DpVzWRR5ybSW2TnED+4vA4i9OEQv7/KrlaMmDzxeuIvU5BN3uFBQyFBYYII+kMOfw/xlUVvnecle+J4id/pn6ZN1eQH4kv/rj1wgQR8BT7i6+h83cL8+eN2pHl2D7MV7oPxHWSC3uP5zyM+pZBM+BT6jYaRQ9FCk6kyguBf3Oepqw+x6MHoB2g412QndX2F0X8kvt29bswMl6eIHzye1Tu0Mfp6iz5NfEF1kvyAw9yUhu+Thj0rW5Tn5bt7xlOBR1AU43pL/OArfMauwOOg31eBRx6L2BQLPKXhzStyBR4X/R7iy+plehtD/uffiePnUwXoIehvW3OvXxI3OJdzX1K6goRn3Zehv1UFnu0Nw26EPP98GfpnLSH++Ur0I/jny9DfqAJP2xvmoL95rv5HCRb9zXP1P0qgAeK3E9oV8m2VuVds9Z/QFzGArcrc+/wCPYf4Hyssk5u2dfU/VlicBrOW7TL3Pl5onbn34cLVEt+x8T/6OVpq+B+c8X8Izost1gAAAABJRU5ErkJggg==);
+    background-size: 20px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-color: white;
+    height: 70px;
+    border-bottom: 5px solid rgb(162, 141, 196);
+}
+
+.ssssss {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR1L-VPTNl4Efb-bz6vKVlr3DWpJga1foWJbQCAsz_9e6br_a7gonLFLI&s);
+    background-size: 30px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-color: white;
+    height: 70px;
+    border-bottom: 5px solid rgb(212, 0, 255);
+
+}
+
+.sssssss {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72QYp4KRNqEDlRWsEOBTyxIzn3_snzlXHvg&s);
+    background-size: 20px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-color: white;
+    height: 70px;
+    border-bottom: 5px solid rgb(0, 255, 242);
+}
+
+.ssssssss {
+    background-image: url(https://w7.pngwing.com/pngs/143/956/png-transparent-black-newspaper-logo-computer-icons-newspaper-headline-news-ico-miscellaneous-angle-text.png);
+    background-size: 37px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-color: white;
+    height: 70px;
+    border-bottom: 5px solid rgb(255, 217, 0);
+}
+
+.sssssssss {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2HASfOzB0_eol9at3iLvdJgSfc4hggq4Ig&s);
+    background-size: 30px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-color: white;
+    height: 70px;
+    border-bottom: 5px solid rgb(38, 0, 255);
+
+}
+
+.ssss:hover {
+    background-color: blue;
+}
+
+.sssss:hover {
+    background-color: rgb(255, 0, 106);
+}
+
+.ssssss:hover {
+    background-color: rgb(43, 255, 0);
+}
+
+.sssssss:hover {
+    background-color: rgb(178, 137, 180);
+}
+
+.ssssssss:hover {
+    background-color: rgb(7, 248, 208);
+}
+
+.sssssssss:hover {
+    background-color: rgb(247, 237, 101);
+}
+
+.three {
+    background-color: rgba(54, 78, 45, 0.8);
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    gap: 20px;
+}
+
+.four {
+    top: 50px;
+    left: 80px;
+}
+
+.six {
+    width: 200px;
+    height: 120px;
+    background-color: rgb(9, 171, 235);
+    position: relative;
+    top: 30px;
+    left: 190px;
+}
+
+.five {
+    top: 60px;
+    left: 80px;
+    border-radius: 5px;
+}
+
+.seven {
+    width: 300px;
+    height: 70px;
+    background-color: rgb(243, 5, 5);
+    position: relative;
+    top: 20px;
+    left: 450px;
+}
+
+.sixtheen {
+    position: relative;
+    top: 30px;
+    left: 190px;
+    border-radius: 5px;
+}
+
+.soora {
+    position: relative;
+    top: 270px;
+    right: 420px;
+    border-radius: 5px;
+}
+
+.ddar {
+    background-color: #ee6b2f;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 270px;
+    right: 420px;
+}
+
+
+.bura {
+    position: relative;
+    top: 270px;
+    right: 290px;
+    border-radius: 5px;
+}
+
+.gaer {
+    position: relative;
+    top: 270px;
+    right: 290px;
+    background-color: #c7aa79;
+    width: 300px;
+    height: 60px;
+
+}
+
+.eightheen {
+    position: relative;
+    top: 40px;
+    border-radius: 5px;
+}
+
+.pora {
+    position: relative;
+    top: 260px;
+    right: 410px;
+    border-radius: 5px;
+}
+
+.fara {
+    position: relative;
+    top: 260px;
+    right: 410px;
+    width: 200px;
+    height: 120px;
+    background-color: rgb(235, 107, 150);
+
+}
+
+.seventeen {
+    position: relative;
+    top: 20px;
+    left: 450px;
+    border-radius: 5px;
+}
+
+.recvev {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    background-color: rgb(247, 243, 243);
+    color: #f5efef;
+}
+
+
+.rtrt {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    background-color: rgb(243, 238, 237);
+    color: aliceblue;
+
+}
+
+.eee {
+    width: 1400px;
+    height: 700px;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+
+}
+
+body {
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIw4HzFgJLleNSO6jRpVS_oknxNuoMofxQ0Q&s);
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.eleven {
+    background-color: rgb(109, 185, 65);
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+}
+
+.tilo {
+    position: relative;
+    top: -110px;
+    left: 190px;
+}
+
+.chaka {
+    position: relative;
+    top: -110px;
+    left: 190px;
+    width: 430px;
+    height: 100px;
+    background-color: rgb(20, 22, 22);
+    color: #f5efef;
+}
+
+.bilo {
+    position: relative;
+    top: 140px;
+}
+
+.couy {
+    position: relative;
+    top: 140px;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+.kaluo {
+    position: relative;
+    top: -120px;
+    left: 220px;
+}
+
+.cere {
+    position: relative;
+    top: -120px;
+    left: 220px;
+    width: 300px;
+    height: 70px;
+    background-color: rgb(80, 138, 14);
+}
+
+.ali {
+    position: relative;
+    top: 140px;
+    left: 60px;
+
+}
+
+.bwaa {
+    position: relative;
+    top: 5px;
+    left: 160px;
+    background-color: #ee6b2f;
+    height: 135px;
+    width: 150px;
+
+}
+
+.wali {
+    position: relative;
+    top: 140px;
+    right: 320px;
+
+}
+
+.bqqa {
+    position: relative;
+    top: 140px;
+    right: 320px;
+    width: 200px;
+    height: 100px;
+    background-color: #ee6b2f;
+
+}
+
+.zubru {
+    position: relative;
+    top: 195px;
+    right: 210px;
+}
+
+.caea {
+    position: relative;
+    top: 195px;
+    right: 210px;
+    width: 150;
+    height: 20px;
+    background-color: bisque;
+}
+
+.zubru:hover {
+    transform: scale(-1);
+    ;
+
+}
+
+.caea:hover {
+    transform: scale(-1);
+
+}
+
+.bqqa:hover {
+    transform: scale(-1);
+
+}
+
+.zubru:hover {
+    transform: scale(-1);
+}
+
+.wali:hover {
+    transform: scale(-1);
+}
+
+.bwaa:hover {
+    transform: scale(-1);
+}
+
+.ali:hover {
+    transform: scale(-1)
+}
+
+.cere:hover {
+    transform: scale(-1)
+}
+
+.kaluo:hover {
+    transform: scale(-1)
+}
+
+.couy:hover {
+    transform: scale(-1)
+}
+
+.bilo:hover {
+    transform: scale(-1)
+}
+
+.chaka:hover {
+    transform: scale(-1)
+}
+
+.til:hover {
+    transform: scale(-1)
+}
+
+.eleven:hover {
+    transform: scale(-1)
+}
+
+.seventeen:hover {
+    transform: scale(-1)
+}
+
+.fara:hover {
+    transform: scale(-1)
+}
+
+.pora:hover {
+    transform: scale(-1)
+}
+
+.eightheen:hover {
+    transform: scale(-1)
+}
+
+.gaer:hover {
+    transform: scale(-1)
+}
+
+.soora:hover {
+    transform: scale(-1)
+}
+
+.sixtheen:hover {
+    transform: scale(-1)
+}
+
+.seven:hover {
+    transform: scale(-1)
+}
+
+.fiv:hover {
+    transform: scale(-1)
+}
+
+.six:hover {
+    transform: scale(-1)
+}
+
+.dda:hover {
+    transform: scale(-1)
+}
+
+.bura:hover {
+    transform: scale(-1)
+}
+
+.galo {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(3, 3, 3);
+    padding: 20px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    color: #f5efef;
+
+}
+
+input {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.eeeerr {
+    height: 80px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+
+    position: fixed;
+
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+.gtae {
+    width: 300px;
+    background-color: rgb(3, 3, 3);
+    height: 300px;
+    display: flex;
+    float: right;
+    padding: 20px;
+    margin: 8px;
+    color: aliceblue;
+}
+
+.bca {
+    width: 300px;
+    background-color: #2f4cee;
+    height: 300px;
+}
+
+.rtre {
+    width: 300px;
+    background-color: #eecb2f;
+    height: 300px;
+}
+
+.ttt {
+    ;
+}
