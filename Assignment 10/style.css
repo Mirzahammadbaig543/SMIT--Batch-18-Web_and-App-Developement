@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80") no-repeat center center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+.form-container {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+
+.main-header {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.form-panel {
+    background-color: #6a1b9a;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-title {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+.input-row {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.input-row i {
+    color: #6a1b9a;
+    padding: 10px 12px;
+    font-size: 1em;
+    border-right: 1px solid #ddd;
+}
+
+.input-row input[type="text"],
+.input-row input[type="tel"],
+.input-row input[type="email"],
+.input-row input[type="password"] {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+    border-radius: 0 3px 3px 0;
+    -webkit-appearance: none;
+}
+
+
+.submit-btn-link {
+    text-decoration: none;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 3px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #c2185b;
+}
