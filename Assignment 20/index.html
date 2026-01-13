@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Roll Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h2 id="status-text">Player 1 Turn</h2>
+        <p id="sub-text">Click Roll Dice</p>
+
+        <div class="dice-box">
+            <img id="dice-img" src="images/dice01.png" alt="dice">
+        </div>
+
+        <button id="roll-btn" onclick="startRoll()">🎲 Roll Dice</button>
+
+        <div class="player-buttons">
+            <button id="p1" class="btn red active">Player 1</button>
+            <button id="p2" class="btn green">Player 2</button>
+            <button id="p3" class="btn blue">Player 3</button>
+            <button id="p4" class="btn orange">Player 4</button>
+        </div>
+
+        <button id="reset-btn" onclick="resetGame()" style="display:none;">Restart Game</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
